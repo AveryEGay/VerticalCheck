@@ -1,0 +1,28 @@
+This is a program to easily be able to check the vertical sensor on CertainTeed frames. Here are
+the steps that you should take to use this program effectively:
+
+1. Go to the POC screen and open TeraTerm (There will be a Desktop icon for it.)
+
+2. Within TeraTerm go to File -> Log.
+
+3. Change the output location to your preference and name the file anything,
+	BUT BE SURE IT ENDS IN .log, then click Save.
+
+4. Within the TeraTerm window type the command VTS. (You won't be able to see the VTS when you
+	type it in, but it is there.) After typing VTS, click the ENTER key on the keyboard.
+
+5. You will see data in the TeraTerm window. Exit out of the TeraTerm window and find the .log
+	file that you saved from step 3. Open this .log file and make sure there is data in the 
+	file.
+
+6. Remote into the POC and retrieve the .log file by placing it on your local computer.
+
+7. Open the VerticalCheck.exe program and click on the "Browse" button and click the .log file
+	that you placed on your local computer.
+
+8. Click the "Create Plot and Output File" button. This will show a plot of the vertical scan
+	as well as create a Vertical-Formatted.log file in the same folder as the VerticalCheck.exe
+	program.
+
+9. Disregarding any drops at the beggining of the profile, see that there is no more than 
+	100 um of range in the profile.
